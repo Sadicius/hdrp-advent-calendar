@@ -1,243 +1,217 @@
 Config = {}
 
-Config.Framework = "ESX" -- ESX or qbcore
-
 Config.Days = {
     [1] = {
         title = "1 December",
-        description = "1 decenmber",
         cash = {
-            money = 1000,
-            bank = 1000
+            bank = 1
         },
         items = {
             {name = "sandwich", quantity = 2},
-            {name = "cola", quantity = 1}
-        }
+            {name = "coal", quantity = 1}
+        },
+        date = { year = 2023, month = 12, day = 1 }
     },
     [2] = {
-        title = "2 december",
-        description = "2 decenmber",
+        title = "2 December",
         cash = {
-            money = 2000,
-            bank = 2000
+            bank = 2
         },
         items = {
             {name = "sandwich", quantity = 2},
-            {name = "cola", quantity = 1}
-        }
+            {name = 'water', quantity = 1}
+        },
+        date = { year = 2023, month = 12, day = 2 }
     },
     [3] = {
-        title = "3 december",
-        description = "3 decenmber",
+        title = "3 December",
         cash = {
-            money = 3000,
-            bank = 3000
+            bank = 3
         },
         items = {
             {name = "sandwich", quantity = 2},
-            {name = "cola", quantity = 1}
-        }
+            {name = 'bread', quantity = 1}
+        },
+        date = { year = 2023, month = 12, day = 3 }
     },
     [4] = {
-        title = "4 december",
-        description = "4 decenmber",
+        title = "4 December",
         cash = {
-            money = 4000,
-            bank = 4000
+            bank = 4
         },
         items = {
             {name = "sandwich", quantity = 2},
-            {name = "cola", quantity = 1}
-        }
+            {name = 'smallfish', quantity = 1}
+        },
+        date = { year = 2023, month = 12, day = 4 }
     },
     [5] = {
-        title = "5 december",
-        description = "5 decenmber",
+        title = "5 December",
         cash = {
-            money = 5000,
-            bank = 5000
+            bank = 5
         },
         items = {
             {name = "sandwich", quantity = 2},
-            {name = "cola", quantity = 1}
-        }
+            {name = 'rock', quantity = 1}
+        },
+        date = { year = 2023, month = 12, day = 5 }
     },
     [6] = {
-        title = "6 december",
-        description = "6 decenmber",
+        title = "6 December",
         cash = {
-            money = 2000,
-            bank = 2000
+            bank = 2
         },
         items = {
             {name = "sandwich", quantity = 2},
-            {name = "cola", quantity = 1}
-        }
+            {name = 'wood', quantity = 1}
+        },
+        date = { year = 2023, month = 12, day = 6 }
     },
     [7] = {
-        title = "7 december",
-        description = "7 decenmber",
+        title = "7 December",
         cash = {
-            money = 7000,
-            bank = 7000
+            bank = 7
         },
         items = {
             {name = "sandwich", quantity = 2},
-            {name = "cola", quantity = 1}
-        }
+            {name = 'cotton', quantity = 1}
+        },
+        date = { year = 2023, month = 12, day = 7 }
     },
     [8] = {
-        title = "8 december",
-        description = "8 decenmber",
+        title = "8 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 8 }
     },
     [9] = {
-        title = "9 december",
-        description = "9 decenmber",
+        title = "9 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 9 }
     },
     [10] = {
-        title = "10 december",
-        description = "10 decenmber",
+        title = "10 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 10 }
     },
     [11] = {
-        title = "11 december",
-        description = "11 decenmber",
+        title = "11 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 11 }
     },
     [12] = {
-        title = "12 december",
-        description = "12 decenmber",
+        title = "12 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 12 }
     },
     [13] = {
-        title = "13 december",
-        description = "13 decenmber",
+        title = "13 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 13 }
     },
     [14] = {
-        title = "14 december",
-        description = "14 decenmber",
+        title = "14 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 14 }
     },
     [15] = {
-        title = "15 december",
-        description = "15 decenmber",
+        title = "15 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 15 }
     },
     [16] = {
-        title = "16 december",
-        description = "16 decenmber",
+        title = "16 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 16 }
     },
     [17] = {
-        title = "17 december",
-        description = "17 decenmber",
+        title = "17 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 17 }
     },
     [18] = {
-        title = "18 december",
-        description = "18 decenmber",
+        title = "18 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 18 }
     },
     [19] = {
-        title = "19 december",
-        description = "19 decenmber",
+        title = "19 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 19 }
     },
     [20] = {
-        title = "20 december",
-        description = "20 decenmber",
+        title = "20 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 20 }
     },
     [21] = {
-        title = "21 december",
-        description = "21 decenmber",
+        title = "21 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 21 }
     },
     [22] = {
-        title = "22 december",
-        description = "22 decenmber",
+        title = "22 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 22 }
     },
     [23] = {
-        title = "23 december",
-        description = "23 decenmber",
+        title = "23 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 23 }
     },
     [24] = {
-        title = "24 december",
-        description = "24 decenmber",
+        title = "24 December",
         cash = {
-            money = nil,
-            bank = 8000
+            bank = 8
         },
-        items = nil
+        items = nil,
+        date = { year = 2023, month = 12, day = 24 }
     },
 }
